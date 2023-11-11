@@ -3,6 +3,12 @@
   background-repeat: no-repeat;
 } */
 
+@media (min-width: 768px) {
+  html, body {
+    overflow: hidden;
+  }
+}
+
 /* Media query for screens smaller than 576px (mobile devices) */
 /* @media (max-width: 575.98px) {
   .main-login {
