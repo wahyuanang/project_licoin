@@ -2,13 +2,19 @@ a {
   text-decoration: none;
 }
 
-.main-login {
-  background-image: url(../Assets/Images/wave-dekstop.svg);
-  background-repeat: no-repeat;
+@media (min-width: 768px) {
+  html, body {
+    overflow: hidden;
+  }
 }
 
+/* .main-login {
+  background-image: url(../Assets/Images/wave-dekstop.svg);
+  background-repeat: no-repeat;
+} */
+
 /* Media query for screens smaller than 576px (mobile devices) */
-@media (max-width: 575.98px) {
+/* @media (max-width: 575.98px) {
   .main-login {
     position: relative;
     background-image: none; 
@@ -38,9 +44,9 @@ a {
     transform: scaleY(-1); 
     background-repeat: no-repeat;
   }
-}
+} */
 
-@media (min-width: 576px) and (max-width: 991px){
+/* @media (min-width: 576px) and (max-width: 991px){
   .main-login {
     position: relative;
     background-image: none; 
@@ -70,9 +76,9 @@ a {
     transform: scaleY(-1); 
     background-repeat: no-repeat;
   }
-}
+} */
 
-@media (min-width: 576px) and (max-width: 1024px){
+/* @media (min-width: 576px) and (max-width: 1024px){
   .main-login {
     position: relative;
     background-image: none; 
@@ -102,4 +108,4 @@ a {
     transform: scaleY(-1); 
     background-repeat: no-repeat;
   }
-}
+} */
