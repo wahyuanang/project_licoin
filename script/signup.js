@@ -1,6 +1,6 @@
-const btnSignUp = document.querySelector(`.btn-signup`);
+const btnAlertSucccess = document.querySelector(`.btn-alert`);
 
-btnSignUp.addEventListener(`click`, function(){
+btnAlertSucccess.addEventListener(`click`, function(){
   Swal.fire({
     icon: "success",
     title: "Sign Up Successful",
