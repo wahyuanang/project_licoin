@@ -1,0 +1,101 @@
+.main-login {
+  background-image: url(../Assets/Images/wave-dekstop.svg);
+  background-repeat: no-repeat;
+}
+
+/* Media query for screens smaller than 576px (mobile devices) */
+@media (max-width: 575.98px) {
+  .main-login {
+    position: relative;
+    background-image: none; 
+  }
+
+  .wave-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-image: url(../Assets/Images/wave-top.png);
+    background-size: contain;
+    height: 150px; 
+    z-index: 1; 
+    background-repeat: no-repeat;
+  }
+
+  .wave-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url(../Assets/Images/wave-bottom.png);
+    background-size: contain;
+    height: 150px; 
+    z-index: 1; 
+    transform: scaleY(-1); 
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991px){
+  .main-login {
+    position: relative;
+    background-image: none; 
+  }
+ 
+  .wave-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-image: url(../Assets/Images/wave-top.png);
+    background-size: cover;
+    height: 250px; 
+    z-index: 1; 
+    background-repeat: no-repeat;
+  }
+
+  .wave-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url(../Assets/Images/wave-bottom.png);
+    background-size: cover;
+    height: 250px;
+    z-index: 1; 
+    transform: scaleY(-1); 
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 1024px){
+  .main-login {
+    position: relative;
+    background-image: none; 
+  }
+
+  .wave-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-image: url(../Assets/Images/wave-top.png);
+    background-size: cover;
+    height: 300px; 
+    z-index: 1; 
+    background-repeat: no-repeat;
+  }
+
+  .wave-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url(../Assets/Images/wave-bottom.png);
+    background-size: cover;
+    height: 300px;
+    z-index: 1; 
+    transform: scaleY(-1); 
+    background-repeat: no-repeat;
+  }
+}
