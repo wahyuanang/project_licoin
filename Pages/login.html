@@ -1,48 +1,50 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>Animated Login Form</title>
-    <link rel="stylesheet" type="text/css" href="/assets/css/login.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+    <title>login page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-<body>
-    <img class="wave" src="/assets/images/Vector 2.png">
-    <div class="container">
-        <div class="img">
-            <img src="/assets/images/coin.gif">
-        </div>
-        <div class="login-content">
-            <form action="index.html">
-                <img src="/assets/images/OBJECTS 1.png">
-                <div class="input-div one">
-                    <div class="i">
-                        <i class="fas fa-user"></i>
-                    </div>
-                    <div class="div">
-                        <h5>Email</h5>
-                        <input type="text" class="input">
-                    </div>
-                </div>
-                <div class="input-div pass">
-                    <div class="i">
-                        <i class="fas fa-lock"></i>
-                    </div>
-                    <div class="div">
-                        <h5>Password</h5>
-                        <input type="password" class="input">
-                    </div>
-                </div>
-                <h5>Apakah anda sudah mempunyai akun?</h5>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-                <input type="submit" class="btn" value="Login">
-            </form>
+    <link rel="stylesheet" href="../style/login.css">
+  </head>
+  <body>
+    <div class="container-fluid main-login">
+      <div class="wave-top"></div>
+      <div class="row justify-content-evenly p-lg-5 p-2 p-md-0 vh-100">
+        <div class="col-md-4 mt-5 logo d-none d-md-block my-md-auto">
+            <img src="../Assets/Images/coin.gif" alt="" class="img-fluid">
         </div>
+        <div class="col-md-4 my-auto">
+          <div class="text-center mb-5 mb-lg-4">
+            <img src="../Assets/Images/OBJECTS 1.png" alt="" class="img-fluid">
+          </div>
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail" class="form-label fw-semibold">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="example@gmail.com">
+            </div>
+            <div class="label-password d-flex justify-content-between">
+              <label for="password" class="form-label fw-semibold">Password</label>
+              <a href="" class="" style="font-size: 14px;">lupa password ?</a>
+            </div>
+            <div class="input-group mb-3">
+              <input type="password" class="form-control border-end-0" placeholder="password" aria-label="password" aria-describedby="button-addon2">
+              <button class="btn border-light-subtle border-start-0" type="button" id="hide-password"><i class="fa-solid fa-eye"></i></button>
+            </div>
+            <p class="text-center">Apakah anda sudah mempunyai akun? <a href="../signUp-page/index.html">Daftar</a></p>
+            <div class="text-center">
+              <button type="submit" class="btn text-light fw-semibold px-5 rounded-pill" style="background-color: #40B93C;">Masuk</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="wave-bottom"></div>
     </div>
-    <script type="text/javascript" src="main.js"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
+    <script src="script.js"></script>
+  </body>
 </html>
