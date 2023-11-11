@@ -1,0 +1,104 @@
+
+
+/* .profil {
+    background-image: url(img/wave3.svg);
+    background-repeat: no-repeat;
+  } */
+  
+  /* Media query for screens smaller than 576px (mobile devices) */
+  /* @media screen and (max-width: 748px){
+    .profil{
+      position: relative;
+      background-image: none; 
+    }
+  
+    .wave-top {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-image: url(img/wave4.png);
+      background-size: contain;
+      height: 150px; 
+      z-index: -1; 
+      background-repeat: no-repeat;
+    }
+  
+    .wave-bottom {
+      position: absolute;
+      bottom: 10;
+      left: 0;
+      right: 0;
+      background-image: url(img/wave7.png);
+      background-size: contain;
+      height: 150px; 
+      z-index: -1; 
+      transform: scaleY(-1); 
+      background-repeat: no-repeat;
+    }
+  } */
+  
+  /* @media (min-width: 576px) and (max-width: 991px){
+    .main-login {
+      position: relative;
+      background-image: none; 
+    }
+  
+    .wave-top {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-image: url(img/wave4.png);
+      background-size: cover;
+      height: 250px; 
+      z-index: -1; 
+      background-repeat: no-repeat;
+    }
+  
+    .wave-bottom {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-image: url(img/wave7.png);
+      background-size: cover;
+      height: 250px;
+      z-index: -1; 
+      transform: scaleY(-1); 
+      background-repeat: no-repeat;
+    }
+  } */
+  
+  /* @media only screen and (min-width: 768px) 
+  and (max-width: 1200px){
+    .main-login {
+      position: relative;
+      background-image: none; 
+    }
+  
+    .wave-top {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-image: url(img/wave4.png);
+      background-size: cover;
+      height: 300px; 
+      z-index: -1; 
+      background-repeat: no-repeat;
+    }
+  
+    .wave-bottom {
+      position: absolute;
+      bottom: 0;
+      left: 0;  
+      right: 0;
+      background-image: url(img/wave7.png);
+      background-size: cover;
+      height: 300px;
+      z-index: -1; 
+      transform: scaleY(-1); 
+      background-repeat: no-repeat;
+    }
+  } */
